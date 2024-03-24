@@ -1,0 +1,20 @@
+{
+  "name": "22-sass-minimal",
+  "version": "1.0.0",
+  "description": "Minimal Eleventy template with Sass processing",
+  "main": "eleventy.config.js",
+  "scripts": {
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:sass": "npx sass sass:_site/css --watch",
+    "start": "npm run watch:eleventy & npm run watch:sass",
+    "build": "sass sass:_site/css --style=compressed && eleventy",
+    "debug": "DEBUG=* eleventy"
+},
+  "keywords": ["eleventy", "sass", "minimal", "template"],
+  "author": "Michel Maillard",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "sass": "^1.71.1"
+  }
+}

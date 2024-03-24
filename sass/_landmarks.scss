@@ -1,0 +1,32 @@
+body {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+main aside {
+    flex-grow: 1;
+}
+main section {
+    flex: 3 1 30em;
+    padding: 0 2em;
+}
+header {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+main, footer {
+    background-color: var(--light-color);
+}
+footer {
+    text-align: center;
+}

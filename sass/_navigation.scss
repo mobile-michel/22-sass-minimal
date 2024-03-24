@@ -1,0 +1,24 @@
+header nav {
+    a {
+        outline-color: transparent;
+        text-decoration: none;
+        color: var(--light-color);
+    }
+
+    a:hover {
+        background-color: var(--danger-color);
+    }
+}
+
+header nav ul,
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+header nav ul li, footer nav ul li {
+    list-style: none;
+    padding: 0 1rem;
+}
+aside nav ul {
+    padding-left: 0;
+}
