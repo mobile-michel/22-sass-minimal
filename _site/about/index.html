@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Minimal Eleventy Template</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body id="about">
+  <header role="banner">
+    <nav aria-label="Primary">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a  aria-current="page" href="/about/">About</a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="/doc/">Documentation</a></li>
+  </ul>
+</nav>
+<template id="burger-template">
+  <button type="button" aria-expanded="false" aria-label="Menu" aria-controls="mainnav">
+    <svg width="24" height="24" aria-hidden="true">
+      <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
+    </svg>
+  </button>
+</template>
+    <h1>Welcome</h1>
+</header>
+<main>
+    <section aria-labelledby="About">
+        <h2 id="About">About</h2>
+        <p>This is the about page.</p>
+        
+    </section>
+</main>
+<footer role="contentinfo">
+    <nav aria-label="Footer">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li aria-current="page"><a href="/about/">About</a></li>
+  </ul>
+</nav>
+    <small>&copy; 2024 Built with <a href="https://www.11ty.dev/">Eleventy</a> & <a href="https://liquidjs.com/">LiquidJS</a> by <a href="https://michelmaillard.ch/">Michel Maillard</a>.</small>
+
+</footer>
+</body>
+
+</html>
