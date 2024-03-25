@@ -7,7 +7,7 @@
     "watch:eleventy": "npx @11ty/eleventy --serve",
     "watch:sass": "npx sass sass:_site/css --watch",
     "start": "npm run watch:eleventy & npm run watch:sass",
-    "build": "sass sass:_site/css --style=compressed && eleventy",
+    "build": "sass sass:_site/css --style=compressed && eleventy --pathprefix '22-sass-minimal'",
     "debug": "DEBUG=* eleventy"
 },
   "keywords": ["eleventy", "sass", "minimal", "template"],
