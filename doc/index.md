@@ -8,5 +8,5 @@ pagination:
     alias: pagination
 ---
 {%- for item in pagination %}
-- <a href="{{ item.url }}">{{ item.data.description }}</a>
+- <a href="{{ item.url | url }}">{{ item.data.description }}</a>
 {% endfor -%}

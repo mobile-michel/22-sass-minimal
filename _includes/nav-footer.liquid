@@ -1,6 +1,6 @@
 <nav aria-label="Footer">
   <ul>
-    <li><a {% if page.url=="/" %}aria-current="page" {% endif %}href="/">Home</a></li>
+    <li><a {% if page.url=="/" %}aria-current="page" {% endif %}href="{{ '/' | url }}">Home</a></li>
     {%- for nav in collections.footer %}
     <li{% if page.url==nav.url %} aria-current="page"{% endif %}><a href="{{ nav.url | url }}">{{ nav.data.title }}</a></li>
     {%- endfor %}
