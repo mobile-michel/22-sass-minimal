@@ -16,7 +16,7 @@
 - includes: copyright + nav-footer + nav-primary + nav-secondary
 - HTML5 landmarks: `header, main & footer` + `aside & section` (with `if` condition)
 - navigation links with `tags: primary, secondary & footer`
-- not responsive layout
+- responsive layout with flexbox on header, main & footer
 
 ## Scripts
 ```
