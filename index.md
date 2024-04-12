@@ -2,6 +2,7 @@
 title: Home page
 description: Minimal Eleventy template with Sass processing.
 layout: default
+tags: footer
 ---
 ## Template's structure
 - _includes
